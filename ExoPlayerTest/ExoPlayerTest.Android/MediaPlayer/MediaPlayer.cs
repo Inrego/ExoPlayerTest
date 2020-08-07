@@ -56,11 +56,18 @@ namespace ExoPlayerTest.Droid.MediaPlayer
         {
             await Test();
         }
-
+        // This doesn't crash, but it doesn't player either.
         private async Task Test()
         {
             var context = Android.App.Application.Context.ApplicationContext;
-            var mediaBrowser = new MediaBrowserCompat(context, new ComponentName(context, ServiceType), MediaBrowserConnectionCallback, null);
+            var mediaBrowser = new MediaBrowserCompat(context, new ComponentName(context, ServiceType),
+                MediaBrowserConnectionCallback, null);
+            MediaBrowserConnectionCallback.OnConnectedImpl = () =>
+            {
+                var mediaController = new MediaControllerCompat(context, mediaBrowser.SessionToken);
+                MediaControllerCompat.SetMediaController(MainActivity.CurrentActivity, mediaController);
+                mediaController.GetTransportControls().PlayFromUri(Uri.Parse("https://ia800605.us.archive.org/32/items/Mp3Playlist_555/AaronNeville-CrazyLove.mp3"), Bundle.Empty);
+            };
             mediaBrowser.Connect();
         }
 

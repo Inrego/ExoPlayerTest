@@ -14,6 +14,8 @@ using AndroidX.Media;
 
 namespace ExoPlayerTest.Droid.MediaPlayer.FromScratch
 {
+    [Service(Exported = true, Enabled = true)]
+    [IntentFilter(new[] { global::Android.Service.Media.MediaBrowserService.ServiceInterface })]
     public class PlaybackService : MediaBrowserServiceCompat
     {
         private const string MY_MEDIA_ROOT_ID = "my_root_id";
@@ -24,6 +26,7 @@ namespace ExoPlayerTest.Droid.MediaPlayer.FromScratch
 
         public override void OnCreate()
         {
+            base.OnCreate();
             var context = Android.App.Application.Context.ApplicationContext;
 
             var mediaSession = new MediaSessionCompat(context, "ExoTest");
@@ -35,6 +38,7 @@ namespace ExoPlayerTest.Droid.MediaPlayer.FromScratch
             mediaSession.SetPlaybackState(stateBuilder.Build());
 
             mediaSession.SetCallback(new SessionCallback());
+            SessionToken = mediaSession.SessionToken;
         }
 
         public override BrowserRoot OnGetRoot(string clientPackageName, int clientUid, Bundle rootHints)
