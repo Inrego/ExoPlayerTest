@@ -21,6 +21,7 @@ using Com.Google.Android.Exoplayer2.Source;
 using Com.Google.Android.Exoplayer2.Trackselection;
 using Com.Google.Android.Exoplayer2.Upstream;
 using Com.Google.Android.Exoplayer2.Util;
+using ExoPlayerTest.Droid.MediaPlayer.FromScratch;
 using ExoPlayerTest.Services;
 using Xamarin.Forms;
 using MediaPlayer = ExoPlayerTest.Droid.MediaPlayer.MediaPlayer;
@@ -31,12 +32,50 @@ namespace ExoPlayerTest.Droid.MediaPlayer
 {
     public class MediaPlayer : IMediaPlayer
     {
-        protected virtual Java.Lang.Class ServiceType { get; } = Java.Lang.Class.FromType(typeof(MediaBrowserService));
+        public MediaPlayer()
+        {
+            MediaBrowserConnectionCallback = new MediaBrowserConnectionCallback
+            {
+                OnConnectedImpl = () =>
+                {
+                    Console.WriteLine("OnConnected");
+                },
+                OnConnectionFailedImpl = () =>
+                {
+                    Console.WriteLine("ConnectionFailed");
+                },
+                OnConnectionSuspendedImpl = () =>
+                {
+                    Console.WriteLine("ConnectionSuspended");
+                }
+            };
+        }
+        protected virtual Java.Lang.Class ServiceType { get; } = Java.Lang.Class.FromType(typeof(PlaybackService));
         protected MediaBrowserConnectionCallback MediaBrowserConnectionCallback { get; set; }
         public async Task StartPlaying(string url)
         {
+            await Test();
+        }
+
+        private async Task Test()
+        {
             var context = Android.App.Application.Context.ApplicationContext;
-            
+            var mediaBrowser = new MediaBrowserCompat(context, new ComponentName(context, ServiceType), MediaBrowserConnectionCallback, null);
+            mediaBrowser.Connect();
+        }
+
+        private async Task Advanced()
+        {
+            var manager = new MediaBrowserManager();
+            await manager.Init();
+            var controller = MediaBrowserManager.MediaManager.MediaController;
+            controller.GetTransportControls().PlayFromUri(Uri.Parse("https://ia800605.us.archive.org/32/items/Mp3Playlist_555/AaronNeville-CrazyLove.mp3"), Bundle.Empty);
+        }
+
+        private async Task Simple()
+        {
+            var context = Android.App.Application.Context.ApplicationContext;
+
             var player = new SimpleExoPlayer.Builder(context).Build();
             var datasourceFactory = new DefaultDataSourceFactory(context, Util.GetUserAgent(context, "test"));
             var mediaSource = new ProgressiveMediaSource.Factory(datasourceFactory).CreateMediaSource(Uri.Parse("https://ia800605.us.archive.org/32/items/Mp3Playlist_555/AaronNeville-CrazyLove.mp3"));

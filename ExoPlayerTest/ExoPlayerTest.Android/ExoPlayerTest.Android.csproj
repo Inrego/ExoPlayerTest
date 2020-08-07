@@ -65,8 +65,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
-    <Compile Include="MediaPlayer\MediaBrowserConnectionCallback.cs" />
+    <Compile Include="MediaPlayer\FromScratch\MediaBrowserConnectionCallback.cs" />
+    <Compile Include="MediaPlayer\FromScratch\PlaybackService.cs" />
+    <Compile Include="MediaPlayer\FromScratch\SessionCallback.cs" />
+    <Compile Include="MediaPlayer\MediaBrowserManager.cs" />
+    <Compile Include="MediaPlayer\MediaBrowserSubscriptionCallback.cs" />
+    <Compile Include="MediaPlayer\MediaControllerCallback.cs" />
+    <Compile Include="MediaPlayer\MediaManagerImplementation.cs" />
     <Compile Include="MediaPlayer\MediaPlayer.cs" />
+    <Compile Include="MediaPlayer\MediaPlayerState.cs" />
+    <Compile Include="MediaPlayer\PlaybackStateExtensions.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
