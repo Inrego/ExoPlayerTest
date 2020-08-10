@@ -68,13 +68,7 @@
     <Compile Include="MediaPlayer\FromScratch\MediaBrowserConnectionCallback.cs" />
     <Compile Include="MediaPlayer\FromScratch\PlaybackService.cs" />
     <Compile Include="MediaPlayer\FromScratch\SessionCallback.cs" />
-    <Compile Include="MediaPlayer\MediaBrowserManager.cs" />
-    <Compile Include="MediaPlayer\MediaBrowserSubscriptionCallback.cs" />
-    <Compile Include="MediaPlayer\MediaControllerCallback.cs" />
-    <Compile Include="MediaPlayer\MediaManagerImplementation.cs" />
     <Compile Include="MediaPlayer\MediaPlayer.cs" />
-    <Compile Include="MediaPlayer\MediaPlayerState.cs" />
-    <Compile Include="MediaPlayer\PlaybackStateExtensions.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -103,9 +97,13 @@
     <AndroidResource Include="Resources\drawable\xamarin_logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ExoPlayerTest\ExoPlayerTest.csproj">
-      <Project>{5FBCE66A-E92A-4F41-93B3-874B613C3BA8}</Project>
-      <Name>ExoPlayerTest</Name>
+    <ProjectReference Include="..\..\MediaManager.Android\MediaManager.Android.csproj">
+      <Project>{99efc5c8-7cd5-421e-b6a2-92efc45037ff}</Project>
+      <Name>MediaManager.Android</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MediaManager\MediaManager.csproj">
+      <Project>{4cf44e62-b98d-4bba-92cf-d81e8c38a511}</Project>
+      <Name>MediaManager</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

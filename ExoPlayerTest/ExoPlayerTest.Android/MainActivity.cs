@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using MediaManager;
 
 namespace ExoPlayerTest.Droid
 {
@@ -25,6 +26,9 @@ namespace ExoPlayerTest.Droid
 
             base.OnCreate(savedInstanceState);
 
+
+            CrossMediaManager.Implementation = new MediaManagerImplementation();
+            CrossMediaManager.Current.Init();
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());

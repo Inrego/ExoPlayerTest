@@ -23,6 +23,7 @@ using Com.Google.Android.Exoplayer2.Upstream;
 using Com.Google.Android.Exoplayer2.Util;
 using ExoPlayerTest.Droid.MediaPlayer.FromScratch;
 using ExoPlayerTest.Services;
+using MediaManager;
 using Xamarin.Forms;
 using MediaPlayer = ExoPlayerTest.Droid.MediaPlayer.MediaPlayer;
 using Uri = Android.Net.Uri;
@@ -54,7 +55,7 @@ namespace ExoPlayerTest.Droid.MediaPlayer
         protected MediaBrowserConnectionCallback MediaBrowserConnectionCallback { get; set; }
         public async Task StartPlaying(string url)
         {
-            await Test();
+            await Advanced(url);
         }
         // This doesn't crash, but it doesn't player either.
         private async Task Test()
@@ -71,12 +72,17 @@ namespace ExoPlayerTest.Droid.MediaPlayer
             mediaBrowser.Connect();
         }
 
-        private async Task Advanced()
+        private async Task Advanced(string url)
         {
-            var manager = new MediaBrowserManager();
-            await manager.Init();
-            var controller = MediaBrowserManager.MediaManager.MediaController;
-            controller.GetTransportControls().PlayFromUri(Uri.Parse("https://ia800605.us.archive.org/32/items/Mp3Playlist_555/AaronNeville-CrazyLove.mp3"), Bundle.Empty);
+            try
+            {
+                await CrossMediaManager.Current.Play(url);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
 
         private async Task Simple()

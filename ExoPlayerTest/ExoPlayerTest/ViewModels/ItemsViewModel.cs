@@ -34,10 +34,6 @@ namespace ExoPlayerTest.ViewModels
         {
             IsBusy = true;
 
-            var mediaPlayer = DependencyService.Get<IMediaPlayer>();
-            await mediaPlayer.StartPlaying(
-                "https://ia800605.us.archive.org/32/items/Mp3Playlist_555/AaronNeville-CrazyLove.mp3");
-
             try
             {
                 Items.Clear();
@@ -46,6 +42,10 @@ namespace ExoPlayerTest.ViewModels
                 {
                     Items.Add(item);
                 }
+
+                var mediaPlayer = DependencyService.Get<IMediaPlayer>();
+                await mediaPlayer.StartPlaying(
+                    "https://ia800605.us.archive.org/32/items/Mp3Playlist_555/AaronNeville-CrazyLove.mp3");
             }
             catch (Exception ex)
             {

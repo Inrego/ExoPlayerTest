@@ -1,26 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Service.Media;
 using Android.Support.V4.Media;
 using Android.Support.V4.Media.Session;
-using Android.Views;
-using Android.Widget;
-using ExoPlayerTest.Droid.MediaPlayer.FromScratch;
+using MediaManager.Platforms.Android.Playback;
 
-namespace ExoPlayerTest.Droid.MediaPlayer
+namespace MediaManager.Platforms.Android.MediaSession
 {
     public class MediaBrowserManager
     {
         private TaskCompletionSource<bool> _tcs;
 
-        public static MediaManagerImplementation MediaManager { get; set; } = new MediaManagerImplementation();
+        protected MediaManagerImplementation MediaManager => (MediaManagerImplementation) CrossMediaManager.Current;
 
         //public MediaControllerCompat MediaController { get; set; }
         protected MediaBrowserCompat MediaBrowser { get; set; }
@@ -30,7 +22,7 @@ namespace ExoPlayerTest.Droid.MediaPlayer
         protected virtual Java.Lang.Class ServiceType { get; } = Java.Lang.Class.FromType(typeof(MediaBrowserService));
 
         protected bool IsConnected { get; private set; } = false;
-        protected Context Context => Android.App.Application.Context.ApplicationContext;
+        protected Context Context => MediaManager.Context;
 
         public MediaBrowserManager()
         {
@@ -75,7 +67,7 @@ namespace ExoPlayerTest.Droid.MediaPlayer
                         MediaBrowser.Dispose();
                         MediaBrowser = null;
 
-                        //MediaManager.MediaController.UnregisterCallback(MediaControllerCallback);
+                        MediaManager.MediaController.UnregisterCallback(MediaControllerCallback);
                         MediaControllerCallback.Dispose();
                         MediaControllerCallback = null;
 

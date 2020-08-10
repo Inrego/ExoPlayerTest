@@ -25,6 +25,452 @@ namespace ExoPlayerTest.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::MediaManager.Android.Resource.Attribute.ad_marker_color = global::ExoPlayerTest.Droid.Resource.Attribute.ad_marker_color;
+			global::MediaManager.Android.Resource.Attribute.ad_marker_width = global::ExoPlayerTest.Droid.Resource.Attribute.ad_marker_width;
+			global::MediaManager.Android.Resource.Attribute.alpha = global::ExoPlayerTest.Droid.Resource.Attribute.alpha;
+			global::MediaManager.Android.Resource.Attribute.auto_show = global::ExoPlayerTest.Droid.Resource.Attribute.auto_show;
+			global::MediaManager.Android.Resource.Attribute.bar_height = global::ExoPlayerTest.Droid.Resource.Attribute.bar_height;
+			global::MediaManager.Android.Resource.Attribute.buffered_color = global::ExoPlayerTest.Droid.Resource.Attribute.buffered_color;
+			global::MediaManager.Android.Resource.Attribute.controller_layout_id = global::ExoPlayerTest.Droid.Resource.Attribute.controller_layout_id;
+			global::MediaManager.Android.Resource.Attribute.default_artwork = global::ExoPlayerTest.Droid.Resource.Attribute.default_artwork;
+			global::MediaManager.Android.Resource.Attribute.fastforward_increment = global::ExoPlayerTest.Droid.Resource.Attribute.fastforward_increment;
+			global::MediaManager.Android.Resource.Attribute.font = global::ExoPlayerTest.Droid.Resource.Attribute.font;
+			global::MediaManager.Android.Resource.Attribute.fontProviderAuthority = global::ExoPlayerTest.Droid.Resource.Attribute.fontProviderAuthority;
+			global::MediaManager.Android.Resource.Attribute.fontProviderCerts = global::ExoPlayerTest.Droid.Resource.Attribute.fontProviderCerts;
+			global::MediaManager.Android.Resource.Attribute.fontProviderFetchStrategy = global::ExoPlayerTest.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::MediaManager.Android.Resource.Attribute.fontProviderFetchTimeout = global::ExoPlayerTest.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::MediaManager.Android.Resource.Attribute.fontProviderPackage = global::ExoPlayerTest.Droid.Resource.Attribute.fontProviderPackage;
+			global::MediaManager.Android.Resource.Attribute.fontProviderQuery = global::ExoPlayerTest.Droid.Resource.Attribute.fontProviderQuery;
+			global::MediaManager.Android.Resource.Attribute.fontStyle = global::ExoPlayerTest.Droid.Resource.Attribute.fontStyle;
+			global::MediaManager.Android.Resource.Attribute.fontVariationSettings = global::ExoPlayerTest.Droid.Resource.Attribute.fontVariationSettings;
+			global::MediaManager.Android.Resource.Attribute.fontWeight = global::ExoPlayerTest.Droid.Resource.Attribute.fontWeight;
+			global::MediaManager.Android.Resource.Attribute.hide_during_ads = global::ExoPlayerTest.Droid.Resource.Attribute.hide_during_ads;
+			global::MediaManager.Android.Resource.Attribute.hide_on_touch = global::ExoPlayerTest.Droid.Resource.Attribute.hide_on_touch;
+			global::MediaManager.Android.Resource.Attribute.keep_content_on_player_reset = global::ExoPlayerTest.Droid.Resource.Attribute.keep_content_on_player_reset;
+			global::MediaManager.Android.Resource.Attribute.played_ad_marker_color = global::ExoPlayerTest.Droid.Resource.Attribute.played_ad_marker_color;
+			global::MediaManager.Android.Resource.Attribute.played_color = global::ExoPlayerTest.Droid.Resource.Attribute.played_color;
+			global::MediaManager.Android.Resource.Attribute.player_layout_id = global::ExoPlayerTest.Droid.Resource.Attribute.player_layout_id;
+			global::MediaManager.Android.Resource.Attribute.repeat_toggle_modes = global::ExoPlayerTest.Droid.Resource.Attribute.repeat_toggle_modes;
+			global::MediaManager.Android.Resource.Attribute.resize_mode = global::ExoPlayerTest.Droid.Resource.Attribute.resize_mode;
+			global::MediaManager.Android.Resource.Attribute.rewind_increment = global::ExoPlayerTest.Droid.Resource.Attribute.rewind_increment;
+			global::MediaManager.Android.Resource.Attribute.scrubber_color = global::ExoPlayerTest.Droid.Resource.Attribute.scrubber_color;
+			global::MediaManager.Android.Resource.Attribute.scrubber_disabled_size = global::ExoPlayerTest.Droid.Resource.Attribute.scrubber_disabled_size;
+			global::MediaManager.Android.Resource.Attribute.scrubber_dragged_size = global::ExoPlayerTest.Droid.Resource.Attribute.scrubber_dragged_size;
+			global::MediaManager.Android.Resource.Attribute.scrubber_drawable = global::ExoPlayerTest.Droid.Resource.Attribute.scrubber_drawable;
+			global::MediaManager.Android.Resource.Attribute.scrubber_enabled_size = global::ExoPlayerTest.Droid.Resource.Attribute.scrubber_enabled_size;
+			global::MediaManager.Android.Resource.Attribute.show_buffering = global::ExoPlayerTest.Droid.Resource.Attribute.show_buffering;
+			global::MediaManager.Android.Resource.Attribute.show_shuffle_button = global::ExoPlayerTest.Droid.Resource.Attribute.show_shuffle_button;
+			global::MediaManager.Android.Resource.Attribute.show_timeout = global::ExoPlayerTest.Droid.Resource.Attribute.show_timeout;
+			global::MediaManager.Android.Resource.Attribute.shutter_background_color = global::ExoPlayerTest.Droid.Resource.Attribute.shutter_background_color;
+			global::MediaManager.Android.Resource.Attribute.surface_type = global::ExoPlayerTest.Droid.Resource.Attribute.surface_type;
+			global::MediaManager.Android.Resource.Attribute.time_bar_min_update_interval = global::ExoPlayerTest.Droid.Resource.Attribute.time_bar_min_update_interval;
+			global::MediaManager.Android.Resource.Attribute.touch_target_height = global::ExoPlayerTest.Droid.Resource.Attribute.touch_target_height;
+			global::MediaManager.Android.Resource.Attribute.ttcIndex = global::ExoPlayerTest.Droid.Resource.Attribute.ttcIndex;
+			global::MediaManager.Android.Resource.Attribute.unplayed_color = global::ExoPlayerTest.Droid.Resource.Attribute.unplayed_color;
+			global::MediaManager.Android.Resource.Attribute.use_artwork = global::ExoPlayerTest.Droid.Resource.Attribute.use_artwork;
+			global::MediaManager.Android.Resource.Attribute.use_controller = global::ExoPlayerTest.Droid.Resource.Attribute.use_controller;
+			global::MediaManager.Android.Resource.Color.exo_edit_mode_background_color = global::ExoPlayerTest.Droid.Resource.Color.exo_edit_mode_background_color;
+			global::MediaManager.Android.Resource.Color.exo_error_message_background_color = global::ExoPlayerTest.Droid.Resource.Color.exo_error_message_background_color;
+			global::MediaManager.Android.Resource.Color.notification_action_color_filter = global::ExoPlayerTest.Droid.Resource.Color.notification_action_color_filter;
+			global::MediaManager.Android.Resource.Color.notification_icon_bg_color = global::ExoPlayerTest.Droid.Resource.Color.notification_icon_bg_color;
+			global::MediaManager.Android.Resource.Color.notification_material_background_media_default_color = global::ExoPlayerTest.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::MediaManager.Android.Resource.Color.primary_text_default_material_dark = global::ExoPlayerTest.Droid.Resource.Color.primary_text_default_material_dark;
+			global::MediaManager.Android.Resource.Color.ripple_material_light = global::ExoPlayerTest.Droid.Resource.Color.ripple_material_light;
+			global::MediaManager.Android.Resource.Color.secondary_text_default_material_dark = global::ExoPlayerTest.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::MediaManager.Android.Resource.Color.secondary_text_default_material_light = global::ExoPlayerTest.Droid.Resource.Color.secondary_text_default_material_light;
+			global::MediaManager.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::ExoPlayerTest.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::MediaManager.Android.Resource.Dimension.compat_button_inset_vertical_material = global::ExoPlayerTest.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::MediaManager.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::ExoPlayerTest.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::MediaManager.Android.Resource.Dimension.compat_button_padding_vertical_material = global::ExoPlayerTest.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::MediaManager.Android.Resource.Dimension.compat_control_corner_material = global::ExoPlayerTest.Droid.Resource.Dimension.compat_control_corner_material;
+			global::MediaManager.Android.Resource.Dimension.compat_notification_large_icon_max_height = global::ExoPlayerTest.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::MediaManager.Android.Resource.Dimension.compat_notification_large_icon_max_width = global::ExoPlayerTest.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::MediaManager.Android.Resource.Dimension.exo_media_button_height = global::ExoPlayerTest.Droid.Resource.Dimension.exo_media_button_height;
+			global::MediaManager.Android.Resource.Dimension.exo_media_button_width = global::ExoPlayerTest.Droid.Resource.Dimension.exo_media_button_width;
+			global::MediaManager.Android.Resource.Dimension.notification_action_icon_size = global::ExoPlayerTest.Droid.Resource.Dimension.notification_action_icon_size;
+			global::MediaManager.Android.Resource.Dimension.notification_action_text_size = global::ExoPlayerTest.Droid.Resource.Dimension.notification_action_text_size;
+			global::MediaManager.Android.Resource.Dimension.notification_big_circle_margin = global::ExoPlayerTest.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::MediaManager.Android.Resource.Dimension.notification_content_margin_start = global::ExoPlayerTest.Droid.Resource.Dimension.notification_content_margin_start;
+			global::MediaManager.Android.Resource.Dimension.notification_large_icon_height = global::ExoPlayerTest.Droid.Resource.Dimension.notification_large_icon_height;
+			global::MediaManager.Android.Resource.Dimension.notification_large_icon_width = global::ExoPlayerTest.Droid.Resource.Dimension.notification_large_icon_width;
+			global::MediaManager.Android.Resource.Dimension.notification_main_column_padding_top = global::ExoPlayerTest.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::MediaManager.Android.Resource.Dimension.notification_media_narrow_margin = global::ExoPlayerTest.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::MediaManager.Android.Resource.Dimension.notification_right_icon_size = global::ExoPlayerTest.Droid.Resource.Dimension.notification_right_icon_size;
+			global::MediaManager.Android.Resource.Dimension.notification_right_side_padding_top = global::ExoPlayerTest.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::MediaManager.Android.Resource.Dimension.notification_small_icon_background_padding = global::ExoPlayerTest.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::MediaManager.Android.Resource.Dimension.notification_small_icon_size_as_large = global::ExoPlayerTest.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::MediaManager.Android.Resource.Dimension.notification_subtext_size = global::ExoPlayerTest.Droid.Resource.Dimension.notification_subtext_size;
+			global::MediaManager.Android.Resource.Dimension.notification_top_pad = global::ExoPlayerTest.Droid.Resource.Dimension.notification_top_pad;
+			global::MediaManager.Android.Resource.Dimension.notification_top_pad_large_text = global::ExoPlayerTest.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::MediaManager.Android.Resource.Dimension.subtitle_corner_radius = global::ExoPlayerTest.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::MediaManager.Android.Resource.Dimension.subtitle_outline_width = global::ExoPlayerTest.Droid.Resource.Dimension.subtitle_outline_width;
+			global::MediaManager.Android.Resource.Dimension.subtitle_shadow_offset = global::ExoPlayerTest.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::MediaManager.Android.Resource.Dimension.subtitle_shadow_radius = global::ExoPlayerTest.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::MediaManager.Android.Resource.Drawable.exo_controls_fastforward = global::ExoPlayerTest.Droid.Resource.Drawable.exo_controls_fastforward;
+			global::MediaManager.Android.Resource.Drawable.exo_controls_fullscreen_enter = global::ExoPlayerTest.Droid.Resource.Drawable.exo_controls_fullscreen_enter;
+			global::MediaManager.Android.Resource.Drawable.exo_controls_fullscreen_exit = global::ExoPlayerTest.Droid.Resource.Drawable.exo_controls_fullscreen_exit;
+			global::MediaManager.Android.Resource.Drawable.exo_controls_next = global::ExoPlayerTest.Droid.Resource.Drawable.exo_controls_next;
+			global::MediaManager.Android.Resource.Drawable.exo_controls_pause = global::ExoPlayerTest.Droid.Resource.Drawable.exo_controls_pause;
+			global::MediaManager.Android.Resource.Drawable.exo_controls_play = global::ExoPlayerTest.Droid.Resource.Drawable.exo_controls_play;
+			global::MediaManager.Android.Resource.Drawable.exo_controls_previous = global::ExoPlayerTest.Droid.Resource.Drawable.exo_controls_previous;
+			global::MediaManager.Android.Resource.Drawable.exo_controls_repeat_all = global::ExoPlayerTest.Droid.Resource.Drawable.exo_controls_repeat_all;
+			global::MediaManager.Android.Resource.Drawable.exo_controls_repeat_off = global::ExoPlayerTest.Droid.Resource.Drawable.exo_controls_repeat_off;
+			global::MediaManager.Android.Resource.Drawable.exo_controls_repeat_one = global::ExoPlayerTest.Droid.Resource.Drawable.exo_controls_repeat_one;
+			global::MediaManager.Android.Resource.Drawable.exo_controls_rewind = global::ExoPlayerTest.Droid.Resource.Drawable.exo_controls_rewind;
+			global::MediaManager.Android.Resource.Drawable.exo_controls_shuffle_off = global::ExoPlayerTest.Droid.Resource.Drawable.exo_controls_shuffle_off;
+			global::MediaManager.Android.Resource.Drawable.exo_controls_shuffle_on = global::ExoPlayerTest.Droid.Resource.Drawable.exo_controls_shuffle_on;
+			global::MediaManager.Android.Resource.Drawable.exo_controls_vr = global::ExoPlayerTest.Droid.Resource.Drawable.exo_controls_vr;
+			global::MediaManager.Android.Resource.Drawable.exo_edit_mode_logo = global::ExoPlayerTest.Droid.Resource.Drawable.exo_edit_mode_logo;
+			global::MediaManager.Android.Resource.Drawable.exo_icon_circular_play = global::ExoPlayerTest.Droid.Resource.Drawable.exo_icon_circular_play;
+			global::MediaManager.Android.Resource.Drawable.exo_icon_fastforward = global::ExoPlayerTest.Droid.Resource.Drawable.exo_icon_fastforward;
+			global::MediaManager.Android.Resource.Drawable.exo_icon_fullscreen_enter = global::ExoPlayerTest.Droid.Resource.Drawable.exo_icon_fullscreen_enter;
+			global::MediaManager.Android.Resource.Drawable.exo_icon_fullscreen_exit = global::ExoPlayerTest.Droid.Resource.Drawable.exo_icon_fullscreen_exit;
+			global::MediaManager.Android.Resource.Drawable.exo_icon_next = global::ExoPlayerTest.Droid.Resource.Drawable.exo_icon_next;
+			global::MediaManager.Android.Resource.Drawable.exo_icon_pause = global::ExoPlayerTest.Droid.Resource.Drawable.exo_icon_pause;
+			global::MediaManager.Android.Resource.Drawable.exo_icon_play = global::ExoPlayerTest.Droid.Resource.Drawable.exo_icon_play;
+			global::MediaManager.Android.Resource.Drawable.exo_icon_previous = global::ExoPlayerTest.Droid.Resource.Drawable.exo_icon_previous;
+			global::MediaManager.Android.Resource.Drawable.exo_icon_repeat_all = global::ExoPlayerTest.Droid.Resource.Drawable.exo_icon_repeat_all;
+			global::MediaManager.Android.Resource.Drawable.exo_icon_repeat_off = global::ExoPlayerTest.Droid.Resource.Drawable.exo_icon_repeat_off;
+			global::MediaManager.Android.Resource.Drawable.exo_icon_repeat_one = global::ExoPlayerTest.Droid.Resource.Drawable.exo_icon_repeat_one;
+			global::MediaManager.Android.Resource.Drawable.exo_icon_rewind = global::ExoPlayerTest.Droid.Resource.Drawable.exo_icon_rewind;
+			global::MediaManager.Android.Resource.Drawable.exo_icon_shuffle_off = global::ExoPlayerTest.Droid.Resource.Drawable.exo_icon_shuffle_off;
+			global::MediaManager.Android.Resource.Drawable.exo_icon_shuffle_on = global::ExoPlayerTest.Droid.Resource.Drawable.exo_icon_shuffle_on;
+			global::MediaManager.Android.Resource.Drawable.exo_icon_stop = global::ExoPlayerTest.Droid.Resource.Drawable.exo_icon_stop;
+			global::MediaManager.Android.Resource.Drawable.exo_icon_vr = global::ExoPlayerTest.Droid.Resource.Drawable.exo_icon_vr;
+			global::MediaManager.Android.Resource.Drawable.exo_media_action_repeat_all = global::ExoPlayerTest.Droid.Resource.Drawable.exo_media_action_repeat_all;
+			global::MediaManager.Android.Resource.Drawable.exo_media_action_repeat_off = global::ExoPlayerTest.Droid.Resource.Drawable.exo_media_action_repeat_off;
+			global::MediaManager.Android.Resource.Drawable.exo_media_action_repeat_one = global::ExoPlayerTest.Droid.Resource.Drawable.exo_media_action_repeat_one;
+			global::MediaManager.Android.Resource.Drawable.exo_notification_fastforward = global::ExoPlayerTest.Droid.Resource.Drawable.exo_notification_fastforward;
+			global::MediaManager.Android.Resource.Drawable.exo_notification_next = global::ExoPlayerTest.Droid.Resource.Drawable.exo_notification_next;
+			global::MediaManager.Android.Resource.Drawable.exo_notification_pause = global::ExoPlayerTest.Droid.Resource.Drawable.exo_notification_pause;
+			global::MediaManager.Android.Resource.Drawable.exo_notification_play = global::ExoPlayerTest.Droid.Resource.Drawable.exo_notification_play;
+			global::MediaManager.Android.Resource.Drawable.exo_notification_previous = global::ExoPlayerTest.Droid.Resource.Drawable.exo_notification_previous;
+			global::MediaManager.Android.Resource.Drawable.exo_notification_rewind = global::ExoPlayerTest.Droid.Resource.Drawable.exo_notification_rewind;
+			global::MediaManager.Android.Resource.Drawable.exo_notification_small_icon = global::ExoPlayerTest.Droid.Resource.Drawable.exo_notification_small_icon;
+			global::MediaManager.Android.Resource.Drawable.exo_notification_stop = global::ExoPlayerTest.Droid.Resource.Drawable.exo_notification_stop;
+			global::MediaManager.Android.Resource.Drawable.notification_action_background = global::ExoPlayerTest.Droid.Resource.Drawable.notification_action_background;
+			global::MediaManager.Android.Resource.Drawable.notification_bg = global::ExoPlayerTest.Droid.Resource.Drawable.notification_bg;
+			global::MediaManager.Android.Resource.Drawable.notification_bg_low = global::ExoPlayerTest.Droid.Resource.Drawable.notification_bg_low;
+			global::MediaManager.Android.Resource.Drawable.notification_bg_low_normal = global::ExoPlayerTest.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::MediaManager.Android.Resource.Drawable.notification_bg_low_pressed = global::ExoPlayerTest.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::MediaManager.Android.Resource.Drawable.notification_bg_normal = global::ExoPlayerTest.Droid.Resource.Drawable.notification_bg_normal;
+			global::MediaManager.Android.Resource.Drawable.notification_bg_normal_pressed = global::ExoPlayerTest.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::MediaManager.Android.Resource.Drawable.notification_icon_background = global::ExoPlayerTest.Droid.Resource.Drawable.notification_icon_background;
+			global::MediaManager.Android.Resource.Drawable.notification_template_icon_bg = global::ExoPlayerTest.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::MediaManager.Android.Resource.Drawable.notification_template_icon_low_bg = global::ExoPlayerTest.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::MediaManager.Android.Resource.Drawable.notification_tile_bg = global::ExoPlayerTest.Droid.Resource.Drawable.notification_tile_bg;
+			global::MediaManager.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::ExoPlayerTest.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::MediaManager.Android.Resource.Id.accessibility_action_clickable_span = global::ExoPlayerTest.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_0 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_0;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_1 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_1;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_10 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_10;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_11 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_11;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_12 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_12;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_13 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_13;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_14 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_14;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_15 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_15;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_16 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_16;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_17 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_17;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_18 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_18;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_19 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_19;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_2 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_2;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_20 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_20;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_21 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_21;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_22 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_22;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_23 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_23;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_24 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_24;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_25 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_25;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_26 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_26;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_27 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_27;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_28 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_28;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_29 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_29;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_3 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_3;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_30 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_30;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_31 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_31;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_4 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_4;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_5 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_5;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_6 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_6;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_7 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_7;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_8 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_8;
+			global::MediaManager.Android.Resource.Id.accessibility_custom_action_9 = global::ExoPlayerTest.Droid.Resource.Id.accessibility_custom_action_9;
+			global::MediaManager.Android.Resource.Id.action0 = global::ExoPlayerTest.Droid.Resource.Id.action0;
+			global::MediaManager.Android.Resource.Id.actions = global::ExoPlayerTest.Droid.Resource.Id.actions;
+			global::MediaManager.Android.Resource.Id.action_container = global::ExoPlayerTest.Droid.Resource.Id.action_container;
+			global::MediaManager.Android.Resource.Id.action_divider = global::ExoPlayerTest.Droid.Resource.Id.action_divider;
+			global::MediaManager.Android.Resource.Id.action_image = global::ExoPlayerTest.Droid.Resource.Id.action_image;
+			global::MediaManager.Android.Resource.Id.action_text = global::ExoPlayerTest.Droid.Resource.Id.action_text;
+			global::MediaManager.Android.Resource.Id.all = global::ExoPlayerTest.Droid.Resource.Id.all;
+			global::MediaManager.Android.Resource.Id.always = global::ExoPlayerTest.Droid.Resource.Id.always;
+			global::MediaManager.Android.Resource.Id.async = global::ExoPlayerTest.Droid.Resource.Id.async;
+			global::MediaManager.Android.Resource.Id.blocking = global::ExoPlayerTest.Droid.Resource.Id.blocking;
+			global::MediaManager.Android.Resource.Id.cancel_action = global::ExoPlayerTest.Droid.Resource.Id.cancel_action;
+			global::MediaManager.Android.Resource.Id.chronometer = global::ExoPlayerTest.Droid.Resource.Id.chronometer;
+			global::MediaManager.Android.Resource.Id.dialog_button = global::ExoPlayerTest.Droid.Resource.Id.dialog_button;
+			global::MediaManager.Android.Resource.Id.end_padder = global::ExoPlayerTest.Droid.Resource.Id.end_padder;
+			global::MediaManager.Android.Resource.Id.exo_ad_overlay = global::ExoPlayerTest.Droid.Resource.Id.exo_ad_overlay;
+			global::MediaManager.Android.Resource.Id.exo_artwork = global::ExoPlayerTest.Droid.Resource.Id.exo_artwork;
+			global::MediaManager.Android.Resource.Id.exo_buffering = global::ExoPlayerTest.Droid.Resource.Id.exo_buffering;
+			global::MediaManager.Android.Resource.Id.exo_content_frame = global::ExoPlayerTest.Droid.Resource.Id.exo_content_frame;
+			global::MediaManager.Android.Resource.Id.exo_controller = global::ExoPlayerTest.Droid.Resource.Id.exo_controller;
+			global::MediaManager.Android.Resource.Id.exo_controller_placeholder = global::ExoPlayerTest.Droid.Resource.Id.exo_controller_placeholder;
+			global::MediaManager.Android.Resource.Id.exo_duration = global::ExoPlayerTest.Droid.Resource.Id.exo_duration;
+			global::MediaManager.Android.Resource.Id.exo_error_message = global::ExoPlayerTest.Droid.Resource.Id.exo_error_message;
+			global::MediaManager.Android.Resource.Id.exo_ffwd = global::ExoPlayerTest.Droid.Resource.Id.exo_ffwd;
+			global::MediaManager.Android.Resource.Id.exo_next = global::ExoPlayerTest.Droid.Resource.Id.exo_next;
+			global::MediaManager.Android.Resource.Id.exo_overlay = global::ExoPlayerTest.Droid.Resource.Id.exo_overlay;
+			global::MediaManager.Android.Resource.Id.exo_pause = global::ExoPlayerTest.Droid.Resource.Id.exo_pause;
+			global::MediaManager.Android.Resource.Id.exo_play = global::ExoPlayerTest.Droid.Resource.Id.exo_play;
+			global::MediaManager.Android.Resource.Id.exo_position = global::ExoPlayerTest.Droid.Resource.Id.exo_position;
+			global::MediaManager.Android.Resource.Id.exo_prev = global::ExoPlayerTest.Droid.Resource.Id.exo_prev;
+			global::MediaManager.Android.Resource.Id.exo_progress = global::ExoPlayerTest.Droid.Resource.Id.exo_progress;
+			global::MediaManager.Android.Resource.Id.exo_progress_placeholder = global::ExoPlayerTest.Droid.Resource.Id.exo_progress_placeholder;
+			global::MediaManager.Android.Resource.Id.exo_repeat_toggle = global::ExoPlayerTest.Droid.Resource.Id.exo_repeat_toggle;
+			global::MediaManager.Android.Resource.Id.exo_rew = global::ExoPlayerTest.Droid.Resource.Id.exo_rew;
+			global::MediaManager.Android.Resource.Id.exo_shuffle = global::ExoPlayerTest.Droid.Resource.Id.exo_shuffle;
+			global::MediaManager.Android.Resource.Id.exo_shutter = global::ExoPlayerTest.Droid.Resource.Id.exo_shutter;
+			global::MediaManager.Android.Resource.Id.exo_subtitles = global::ExoPlayerTest.Droid.Resource.Id.exo_subtitles;
+			global::MediaManager.Android.Resource.Id.exo_track_selection_view = global::ExoPlayerTest.Droid.Resource.Id.exo_track_selection_view;
+			global::MediaManager.Android.Resource.Id.exo_vr = global::ExoPlayerTest.Droid.Resource.Id.exo_vr;
+			global::MediaManager.Android.Resource.Id.fill = global::ExoPlayerTest.Droid.Resource.Id.fill;
+			global::MediaManager.Android.Resource.Id.fit = global::ExoPlayerTest.Droid.Resource.Id.fit;
+			global::MediaManager.Android.Resource.Id.fixed_height = global::ExoPlayerTest.Droid.Resource.Id.fixed_height;
+			global::MediaManager.Android.Resource.Id.fixed_width = global::ExoPlayerTest.Droid.Resource.Id.fixed_width;
+			global::MediaManager.Android.Resource.Id.forever = global::ExoPlayerTest.Droid.Resource.Id.forever;
+			global::MediaManager.Android.Resource.Id.icon = global::ExoPlayerTest.Droid.Resource.Id.icon;
+			global::MediaManager.Android.Resource.Id.icon_group = global::ExoPlayerTest.Droid.Resource.Id.icon_group;
+			global::MediaManager.Android.Resource.Id.info = global::ExoPlayerTest.Droid.Resource.Id.info;
+			global::MediaManager.Android.Resource.Id.italic = global::ExoPlayerTest.Droid.Resource.Id.italic;
+			global::MediaManager.Android.Resource.Id.line1 = global::ExoPlayerTest.Droid.Resource.Id.line1;
+			global::MediaManager.Android.Resource.Id.line3 = global::ExoPlayerTest.Droid.Resource.Id.line3;
+			global::MediaManager.Android.Resource.Id.media_actions = global::ExoPlayerTest.Droid.Resource.Id.media_actions;
+			global::MediaManager.Android.Resource.Id.never = global::ExoPlayerTest.Droid.Resource.Id.never;
+			global::MediaManager.Android.Resource.Id.none = global::ExoPlayerTest.Droid.Resource.Id.none;
+			global::MediaManager.Android.Resource.Id.normal = global::ExoPlayerTest.Droid.Resource.Id.normal;
+			global::MediaManager.Android.Resource.Id.notification_background = global::ExoPlayerTest.Droid.Resource.Id.notification_background;
+			global::MediaManager.Android.Resource.Id.notification_main_column = global::ExoPlayerTest.Droid.Resource.Id.notification_main_column;
+			global::MediaManager.Android.Resource.Id.notification_main_column_container = global::ExoPlayerTest.Droid.Resource.Id.notification_main_column_container;
+			global::MediaManager.Android.Resource.Id.one = global::ExoPlayerTest.Droid.Resource.Id.one;
+			global::MediaManager.Android.Resource.Id.right_icon = global::ExoPlayerTest.Droid.Resource.Id.right_icon;
+			global::MediaManager.Android.Resource.Id.right_side = global::ExoPlayerTest.Droid.Resource.Id.right_side;
+			global::MediaManager.Android.Resource.Id.spherical_gl_surface_view = global::ExoPlayerTest.Droid.Resource.Id.spherical_gl_surface_view;
+			global::MediaManager.Android.Resource.Id.status_bar_latest_event_content = global::ExoPlayerTest.Droid.Resource.Id.status_bar_latest_event_content;
+			global::MediaManager.Android.Resource.Id.surface_view = global::ExoPlayerTest.Droid.Resource.Id.surface_view;
+			global::MediaManager.Android.Resource.Id.tag_accessibility_actions = global::ExoPlayerTest.Droid.Resource.Id.tag_accessibility_actions;
+			global::MediaManager.Android.Resource.Id.tag_accessibility_clickable_spans = global::ExoPlayerTest.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::MediaManager.Android.Resource.Id.tag_accessibility_heading = global::ExoPlayerTest.Droid.Resource.Id.tag_accessibility_heading;
+			global::MediaManager.Android.Resource.Id.tag_accessibility_pane_title = global::ExoPlayerTest.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::MediaManager.Android.Resource.Id.tag_screen_reader_focusable = global::ExoPlayerTest.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::MediaManager.Android.Resource.Id.tag_transition_group = global::ExoPlayerTest.Droid.Resource.Id.tag_transition_group;
+			global::MediaManager.Android.Resource.Id.tag_unhandled_key_event_manager = global::ExoPlayerTest.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::MediaManager.Android.Resource.Id.tag_unhandled_key_listeners = global::ExoPlayerTest.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::MediaManager.Android.Resource.Id.text = global::ExoPlayerTest.Droid.Resource.Id.text;
+			global::MediaManager.Android.Resource.Id.text2 = global::ExoPlayerTest.Droid.Resource.Id.text2;
+			global::MediaManager.Android.Resource.Id.texture_view = global::ExoPlayerTest.Droid.Resource.Id.texture_view;
+			global::MediaManager.Android.Resource.Id.time = global::ExoPlayerTest.Droid.Resource.Id.time;
+			global::MediaManager.Android.Resource.Id.title = global::ExoPlayerTest.Droid.Resource.Id.title;
+			global::MediaManager.Android.Resource.Id.video_decoder_gl_surface_view = global::ExoPlayerTest.Droid.Resource.Id.video_decoder_gl_surface_view;
+			global::MediaManager.Android.Resource.Id.when_playing = global::ExoPlayerTest.Droid.Resource.Id.when_playing;
+			global::MediaManager.Android.Resource.Id.zoom = global::ExoPlayerTest.Droid.Resource.Id.zoom;
+			global::MediaManager.Android.Resource.Integer.cancel_button_image_alpha = global::ExoPlayerTest.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::MediaManager.Android.Resource.Integer.exo_media_button_opacity_percentage_disabled = global::ExoPlayerTest.Droid.Resource.Integer.exo_media_button_opacity_percentage_disabled;
+			global::MediaManager.Android.Resource.Integer.exo_media_button_opacity_percentage_enabled = global::ExoPlayerTest.Droid.Resource.Integer.exo_media_button_opacity_percentage_enabled;
+			global::MediaManager.Android.Resource.Integer.status_bar_notification_info_maxnum = global::ExoPlayerTest.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::MediaManager.Android.Resource.Layout.custom_dialog = global::ExoPlayerTest.Droid.Resource.Layout.custom_dialog;
+			global::MediaManager.Android.Resource.Layout.exo_list_divider = global::ExoPlayerTest.Droid.Resource.Layout.exo_list_divider;
+			global::MediaManager.Android.Resource.Layout.exo_playback_control_view = global::ExoPlayerTest.Droid.Resource.Layout.exo_playback_control_view;
+			global::MediaManager.Android.Resource.Layout.exo_player_control_view = global::ExoPlayerTest.Droid.Resource.Layout.exo_player_control_view;
+			global::MediaManager.Android.Resource.Layout.exo_player_view = global::ExoPlayerTest.Droid.Resource.Layout.exo_player_view;
+			global::MediaManager.Android.Resource.Layout.exo_simple_player_view = global::ExoPlayerTest.Droid.Resource.Layout.exo_simple_player_view;
+			global::MediaManager.Android.Resource.Layout.exo_track_selection_dialog = global::ExoPlayerTest.Droid.Resource.Layout.exo_track_selection_dialog;
+			global::MediaManager.Android.Resource.Layout.notification_action = global::ExoPlayerTest.Droid.Resource.Layout.notification_action;
+			global::MediaManager.Android.Resource.Layout.notification_action_tombstone = global::ExoPlayerTest.Droid.Resource.Layout.notification_action_tombstone;
+			global::MediaManager.Android.Resource.Layout.notification_media_action = global::ExoPlayerTest.Droid.Resource.Layout.notification_media_action;
+			global::MediaManager.Android.Resource.Layout.notification_media_cancel_action = global::ExoPlayerTest.Droid.Resource.Layout.notification_media_cancel_action;
+			global::MediaManager.Android.Resource.Layout.notification_template_big_media = global::ExoPlayerTest.Droid.Resource.Layout.notification_template_big_media;
+			global::MediaManager.Android.Resource.Layout.notification_template_big_media_custom = global::ExoPlayerTest.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::MediaManager.Android.Resource.Layout.notification_template_big_media_narrow = global::ExoPlayerTest.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::MediaManager.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::ExoPlayerTest.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::MediaManager.Android.Resource.Layout.notification_template_custom_big = global::ExoPlayerTest.Droid.Resource.Layout.notification_template_custom_big;
+			global::MediaManager.Android.Resource.Layout.notification_template_icon_group = global::ExoPlayerTest.Droid.Resource.Layout.notification_template_icon_group;
+			global::MediaManager.Android.Resource.Layout.notification_template_lines_media = global::ExoPlayerTest.Droid.Resource.Layout.notification_template_lines_media;
+			global::MediaManager.Android.Resource.Layout.notification_template_media = global::ExoPlayerTest.Droid.Resource.Layout.notification_template_media;
+			global::MediaManager.Android.Resource.Layout.notification_template_media_custom = global::ExoPlayerTest.Droid.Resource.Layout.notification_template_media_custom;
+			global::MediaManager.Android.Resource.Layout.notification_template_part_chronometer = global::ExoPlayerTest.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::MediaManager.Android.Resource.Layout.notification_template_part_time = global::ExoPlayerTest.Droid.Resource.Layout.notification_template_part_time;
+			global::MediaManager.Android.Resource.String.app_name = global::ExoPlayerTest.Droid.Resource.String.app_name;
+			global::MediaManager.Android.Resource.String.exo_controls_fastforward_description = global::ExoPlayerTest.Droid.Resource.String.exo_controls_fastforward_description;
+			global::MediaManager.Android.Resource.String.exo_controls_fullscreen_description = global::ExoPlayerTest.Droid.Resource.String.exo_controls_fullscreen_description;
+			global::MediaManager.Android.Resource.String.exo_controls_hide = global::ExoPlayerTest.Droid.Resource.String.exo_controls_hide;
+			global::MediaManager.Android.Resource.String.exo_controls_next_description = global::ExoPlayerTest.Droid.Resource.String.exo_controls_next_description;
+			global::MediaManager.Android.Resource.String.exo_controls_pause_description = global::ExoPlayerTest.Droid.Resource.String.exo_controls_pause_description;
+			global::MediaManager.Android.Resource.String.exo_controls_play_description = global::ExoPlayerTest.Droid.Resource.String.exo_controls_play_description;
+			global::MediaManager.Android.Resource.String.exo_controls_previous_description = global::ExoPlayerTest.Droid.Resource.String.exo_controls_previous_description;
+			global::MediaManager.Android.Resource.String.exo_controls_repeat_all_description = global::ExoPlayerTest.Droid.Resource.String.exo_controls_repeat_all_description;
+			global::MediaManager.Android.Resource.String.exo_controls_repeat_off_description = global::ExoPlayerTest.Droid.Resource.String.exo_controls_repeat_off_description;
+			global::MediaManager.Android.Resource.String.exo_controls_repeat_one_description = global::ExoPlayerTest.Droid.Resource.String.exo_controls_repeat_one_description;
+			global::MediaManager.Android.Resource.String.exo_controls_rewind_description = global::ExoPlayerTest.Droid.Resource.String.exo_controls_rewind_description;
+			global::MediaManager.Android.Resource.String.exo_controls_show = global::ExoPlayerTest.Droid.Resource.String.exo_controls_show;
+			global::MediaManager.Android.Resource.String.exo_controls_shuffle_off_description = global::ExoPlayerTest.Droid.Resource.String.exo_controls_shuffle_off_description;
+			global::MediaManager.Android.Resource.String.exo_controls_shuffle_on_description = global::ExoPlayerTest.Droid.Resource.String.exo_controls_shuffle_on_description;
+			global::MediaManager.Android.Resource.String.exo_controls_stop_description = global::ExoPlayerTest.Droid.Resource.String.exo_controls_stop_description;
+			global::MediaManager.Android.Resource.String.exo_controls_vr_description = global::ExoPlayerTest.Droid.Resource.String.exo_controls_vr_description;
+			global::MediaManager.Android.Resource.String.exo_download_completed = global::ExoPlayerTest.Droid.Resource.String.exo_download_completed;
+			global::MediaManager.Android.Resource.String.exo_download_description = global::ExoPlayerTest.Droid.Resource.String.exo_download_description;
+			global::MediaManager.Android.Resource.String.exo_download_downloading = global::ExoPlayerTest.Droid.Resource.String.exo_download_downloading;
+			global::MediaManager.Android.Resource.String.exo_download_failed = global::ExoPlayerTest.Droid.Resource.String.exo_download_failed;
+			global::MediaManager.Android.Resource.String.exo_download_notification_channel_name = global::ExoPlayerTest.Droid.Resource.String.exo_download_notification_channel_name;
+			global::MediaManager.Android.Resource.String.exo_download_removing = global::ExoPlayerTest.Droid.Resource.String.exo_download_removing;
+			global::MediaManager.Android.Resource.String.exo_item_list = global::ExoPlayerTest.Droid.Resource.String.exo_item_list;
+			global::MediaManager.Android.Resource.String.exo_media_action_repeat_all_description = global::ExoPlayerTest.Droid.Resource.String.exo_media_action_repeat_all_description;
+			global::MediaManager.Android.Resource.String.exo_media_action_repeat_off_description = global::ExoPlayerTest.Droid.Resource.String.exo_media_action_repeat_off_description;
+			global::MediaManager.Android.Resource.String.exo_media_action_repeat_one_description = global::ExoPlayerTest.Droid.Resource.String.exo_media_action_repeat_one_description;
+			global::MediaManager.Android.Resource.String.exo_track_bitrate = global::ExoPlayerTest.Droid.Resource.String.exo_track_bitrate;
+			global::MediaManager.Android.Resource.String.exo_track_mono = global::ExoPlayerTest.Droid.Resource.String.exo_track_mono;
+			global::MediaManager.Android.Resource.String.exo_track_resolution = global::ExoPlayerTest.Droid.Resource.String.exo_track_resolution;
+			global::MediaManager.Android.Resource.String.exo_track_role_alternate = global::ExoPlayerTest.Droid.Resource.String.exo_track_role_alternate;
+			global::MediaManager.Android.Resource.String.exo_track_role_closed_captions = global::ExoPlayerTest.Droid.Resource.String.exo_track_role_closed_captions;
+			global::MediaManager.Android.Resource.String.exo_track_role_commentary = global::ExoPlayerTest.Droid.Resource.String.exo_track_role_commentary;
+			global::MediaManager.Android.Resource.String.exo_track_role_supplementary = global::ExoPlayerTest.Droid.Resource.String.exo_track_role_supplementary;
+			global::MediaManager.Android.Resource.String.exo_track_selection_auto = global::ExoPlayerTest.Droid.Resource.String.exo_track_selection_auto;
+			global::MediaManager.Android.Resource.String.exo_track_selection_none = global::ExoPlayerTest.Droid.Resource.String.exo_track_selection_none;
+			global::MediaManager.Android.Resource.String.exo_track_selection_title_audio = global::ExoPlayerTest.Droid.Resource.String.exo_track_selection_title_audio;
+			global::MediaManager.Android.Resource.String.exo_track_selection_title_text = global::ExoPlayerTest.Droid.Resource.String.exo_track_selection_title_text;
+			global::MediaManager.Android.Resource.String.exo_track_selection_title_video = global::ExoPlayerTest.Droid.Resource.String.exo_track_selection_title_video;
+			global::MediaManager.Android.Resource.String.exo_track_stereo = global::ExoPlayerTest.Droid.Resource.String.exo_track_stereo;
+			global::MediaManager.Android.Resource.String.exo_track_surround = global::ExoPlayerTest.Droid.Resource.String.exo_track_surround;
+			global::MediaManager.Android.Resource.String.exo_track_surround_5_point_1 = global::ExoPlayerTest.Droid.Resource.String.exo_track_surround_5_point_1;
+			global::MediaManager.Android.Resource.String.exo_track_surround_7_point_1 = global::ExoPlayerTest.Droid.Resource.String.exo_track_surround_7_point_1;
+			global::MediaManager.Android.Resource.String.exo_track_unknown = global::ExoPlayerTest.Droid.Resource.String.exo_track_unknown;
+			global::MediaManager.Android.Resource.String.hello = global::ExoPlayerTest.Droid.Resource.String.hello;
+			global::MediaManager.Android.Resource.String.status_bar_notification_info_overflow = global::ExoPlayerTest.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::MediaManager.Android.Resource.Style.ExoMediaButton = global::ExoPlayerTest.Droid.Resource.Style.ExoMediaButton;
+			global::MediaManager.Android.Resource.Style.ExoMediaButton_FastForward = global::ExoPlayerTest.Droid.Resource.Style.ExoMediaButton_FastForward;
+			global::MediaManager.Android.Resource.Style.ExoMediaButton_Next = global::ExoPlayerTest.Droid.Resource.Style.ExoMediaButton_Next;
+			global::MediaManager.Android.Resource.Style.ExoMediaButton_Pause = global::ExoPlayerTest.Droid.Resource.Style.ExoMediaButton_Pause;
+			global::MediaManager.Android.Resource.Style.ExoMediaButton_Play = global::ExoPlayerTest.Droid.Resource.Style.ExoMediaButton_Play;
+			global::MediaManager.Android.Resource.Style.ExoMediaButton_Previous = global::ExoPlayerTest.Droid.Resource.Style.ExoMediaButton_Previous;
+			global::MediaManager.Android.Resource.Style.ExoMediaButton_Rewind = global::ExoPlayerTest.Droid.Resource.Style.ExoMediaButton_Rewind;
+			global::MediaManager.Android.Resource.Style.ExoMediaButton_VR = global::ExoPlayerTest.Droid.Resource.Style.ExoMediaButton_VR;
+			global::MediaManager.Android.Resource.Style.TextAppearance_Compat_Notification = global::ExoPlayerTest.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::MediaManager.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::ExoPlayerTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::MediaManager.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::ExoPlayerTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::MediaManager.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::ExoPlayerTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::MediaManager.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::ExoPlayerTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::MediaManager.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::ExoPlayerTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::MediaManager.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::ExoPlayerTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::MediaManager.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::ExoPlayerTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::MediaManager.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::ExoPlayerTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::MediaManager.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::ExoPlayerTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::MediaManager.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::ExoPlayerTest.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::MediaManager.Android.Resource.Style.Widget_Compat_NotificationActionText = global::ExoPlayerTest.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::MediaManager.Android.Resource.Styleable.AspectRatioFrameLayout = global::ExoPlayerTest.Droid.Resource.Styleable.AspectRatioFrameLayout;
+			global::MediaManager.Android.Resource.Styleable.AspectRatioFrameLayout_resize_mode = global::ExoPlayerTest.Droid.Resource.Styleable.AspectRatioFrameLayout_resize_mode;
+			global::MediaManager.Android.Resource.Styleable.ColorStateListItem = global::ExoPlayerTest.Droid.Resource.Styleable.ColorStateListItem;
+			global::MediaManager.Android.Resource.Styleable.ColorStateListItem_alpha = global::ExoPlayerTest.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::MediaManager.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::ExoPlayerTest.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::MediaManager.Android.Resource.Styleable.ColorStateListItem_android_color = global::ExoPlayerTest.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::MediaManager.Android.Resource.Styleable.DefaultTimeBar = global::ExoPlayerTest.Droid.Resource.Styleable.DefaultTimeBar;
+			global::MediaManager.Android.Resource.Styleable.DefaultTimeBar_ad_marker_color = global::ExoPlayerTest.Droid.Resource.Styleable.DefaultTimeBar_ad_marker_color;
+			global::MediaManager.Android.Resource.Styleable.DefaultTimeBar_ad_marker_width = global::ExoPlayerTest.Droid.Resource.Styleable.DefaultTimeBar_ad_marker_width;
+			global::MediaManager.Android.Resource.Styleable.DefaultTimeBar_bar_height = global::ExoPlayerTest.Droid.Resource.Styleable.DefaultTimeBar_bar_height;
+			global::MediaManager.Android.Resource.Styleable.DefaultTimeBar_buffered_color = global::ExoPlayerTest.Droid.Resource.Styleable.DefaultTimeBar_buffered_color;
+			global::MediaManager.Android.Resource.Styleable.DefaultTimeBar_played_ad_marker_color = global::ExoPlayerTest.Droid.Resource.Styleable.DefaultTimeBar_played_ad_marker_color;
+			global::MediaManager.Android.Resource.Styleable.DefaultTimeBar_played_color = global::ExoPlayerTest.Droid.Resource.Styleable.DefaultTimeBar_played_color;
+			global::MediaManager.Android.Resource.Styleable.DefaultTimeBar_scrubber_color = global::ExoPlayerTest.Droid.Resource.Styleable.DefaultTimeBar_scrubber_color;
+			global::MediaManager.Android.Resource.Styleable.DefaultTimeBar_scrubber_disabled_size = global::ExoPlayerTest.Droid.Resource.Styleable.DefaultTimeBar_scrubber_disabled_size;
+			global::MediaManager.Android.Resource.Styleable.DefaultTimeBar_scrubber_dragged_size = global::ExoPlayerTest.Droid.Resource.Styleable.DefaultTimeBar_scrubber_dragged_size;
+			global::MediaManager.Android.Resource.Styleable.DefaultTimeBar_scrubber_drawable = global::ExoPlayerTest.Droid.Resource.Styleable.DefaultTimeBar_scrubber_drawable;
+			global::MediaManager.Android.Resource.Styleable.DefaultTimeBar_scrubber_enabled_size = global::ExoPlayerTest.Droid.Resource.Styleable.DefaultTimeBar_scrubber_enabled_size;
+			global::MediaManager.Android.Resource.Styleable.DefaultTimeBar_touch_target_height = global::ExoPlayerTest.Droid.Resource.Styleable.DefaultTimeBar_touch_target_height;
+			global::MediaManager.Android.Resource.Styleable.DefaultTimeBar_unplayed_color = global::ExoPlayerTest.Droid.Resource.Styleable.DefaultTimeBar_unplayed_color;
+			global::MediaManager.Android.Resource.Styleable.FontFamily = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamily;
+			global::MediaManager.Android.Resource.Styleable.FontFamilyFont = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamilyFont;
+			global::MediaManager.Android.Resource.Styleable.FontFamilyFont_android_font = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::MediaManager.Android.Resource.Styleable.FontFamilyFont_android_fontStyle = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::MediaManager.Android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::MediaManager.Android.Resource.Styleable.FontFamilyFont_android_fontWeight = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::MediaManager.Android.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::MediaManager.Android.Resource.Styleable.FontFamilyFont_font = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::MediaManager.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::MediaManager.Android.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::MediaManager.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::MediaManager.Android.Resource.Styleable.FontFamilyFont_ttcIndex = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::MediaManager.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::MediaManager.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::MediaManager.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::MediaManager.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::MediaManager.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::MediaManager.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::ExoPlayerTest.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::MediaManager.Android.Resource.Styleable.GradientColor = global::ExoPlayerTest.Droid.Resource.Styleable.GradientColor;
+			global::MediaManager.Android.Resource.Styleable.GradientColorItem = global::ExoPlayerTest.Droid.Resource.Styleable.GradientColorItem;
+			global::MediaManager.Android.Resource.Styleable.GradientColorItem_android_color = global::ExoPlayerTest.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::MediaManager.Android.Resource.Styleable.GradientColorItem_android_offset = global::ExoPlayerTest.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::MediaManager.Android.Resource.Styleable.GradientColor_android_centerColor = global::ExoPlayerTest.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::MediaManager.Android.Resource.Styleable.GradientColor_android_centerX = global::ExoPlayerTest.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::MediaManager.Android.Resource.Styleable.GradientColor_android_centerY = global::ExoPlayerTest.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::MediaManager.Android.Resource.Styleable.GradientColor_android_endColor = global::ExoPlayerTest.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::MediaManager.Android.Resource.Styleable.GradientColor_android_endX = global::ExoPlayerTest.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::MediaManager.Android.Resource.Styleable.GradientColor_android_endY = global::ExoPlayerTest.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::MediaManager.Android.Resource.Styleable.GradientColor_android_gradientRadius = global::ExoPlayerTest.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::MediaManager.Android.Resource.Styleable.GradientColor_android_startColor = global::ExoPlayerTest.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::MediaManager.Android.Resource.Styleable.GradientColor_android_startX = global::ExoPlayerTest.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::MediaManager.Android.Resource.Styleable.GradientColor_android_startY = global::ExoPlayerTest.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::MediaManager.Android.Resource.Styleable.GradientColor_android_tileMode = global::ExoPlayerTest.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::MediaManager.Android.Resource.Styleable.GradientColor_android_type = global::ExoPlayerTest.Droid.Resource.Styleable.GradientColor_android_type;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_ad_marker_color = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_ad_marker_color;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_ad_marker_width = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_ad_marker_width;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_bar_height = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_bar_height;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_buffered_color = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_buffered_color;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_controller_layout_id = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_controller_layout_id;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_fastforward_increment = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_fastforward_increment;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_played_ad_marker_color = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_played_ad_marker_color;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_played_color = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_played_color;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_repeat_toggle_modes = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_repeat_toggle_modes;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_rewind_increment = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_rewind_increment;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_scrubber_color = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_scrubber_color;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_scrubber_disabled_size = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_scrubber_disabled_size;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_scrubber_dragged_size = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_scrubber_dragged_size;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_scrubber_drawable = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_scrubber_drawable;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_scrubber_enabled_size = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_scrubber_enabled_size;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_show_shuffle_button = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_show_shuffle_button;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_show_timeout = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_show_timeout;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_time_bar_min_update_interval = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_time_bar_min_update_interval;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_touch_target_height = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_touch_target_height;
+			global::MediaManager.Android.Resource.Styleable.PlayerControlView_unplayed_color = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerControlView_unplayed_color;
+			global::MediaManager.Android.Resource.Styleable.PlayerView = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_ad_marker_color = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_ad_marker_color;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_ad_marker_width = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_ad_marker_width;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_auto_show = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_auto_show;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_bar_height = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_bar_height;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_buffered_color = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_buffered_color;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_controller_layout_id = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_controller_layout_id;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_default_artwork = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_default_artwork;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_fastforward_increment = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_fastforward_increment;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_hide_during_ads = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_hide_during_ads;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_hide_on_touch = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_hide_on_touch;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_keep_content_on_player_reset = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_keep_content_on_player_reset;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_played_ad_marker_color = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_played_ad_marker_color;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_played_color = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_played_color;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_player_layout_id = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_player_layout_id;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_repeat_toggle_modes = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_repeat_toggle_modes;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_resize_mode = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_resize_mode;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_rewind_increment = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_rewind_increment;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_scrubber_color = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_scrubber_color;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_scrubber_disabled_size = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_scrubber_disabled_size;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_scrubber_dragged_size = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_scrubber_dragged_size;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_scrubber_drawable = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_scrubber_drawable;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_scrubber_enabled_size = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_scrubber_enabled_size;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_show_buffering = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_show_buffering;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_show_shuffle_button = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_show_shuffle_button;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_show_timeout = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_show_timeout;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_shutter_background_color = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_shutter_background_color;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_surface_type = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_surface_type;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_time_bar_min_update_interval = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_time_bar_min_update_interval;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_touch_target_height = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_touch_target_height;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_unplayed_color = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_unplayed_color;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_use_artwork = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_use_artwork;
+			global::MediaManager.Android.Resource.Styleable.PlayerView_use_controller = global::ExoPlayerTest.Droid.Resource.Styleable.PlayerView_use_controller;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::ExoPlayerTest.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::ExoPlayerTest.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::ExoPlayerTest.Droid.Resource.Attribute.font;
@@ -10333,179 +10779,185 @@ namespace ExoPlayerTest.Droid
 			// aapt resource value: 0x7F0D001A
 			public const int abc_toolbar_collapse_description = 2131558426;
 			
-			// aapt resource value: 0x7F0D001B
-			public const int appbar_scrolling_view_behavior = 2131558427;
-			
 			// aapt resource value: 0x7F0D001C
-			public const int bottom_sheet_behavior = 2131558428;
+			public const int appbar_scrolling_view_behavior = 2131558428;
+			
+			// aapt resource value: 0x7F0D001B
+			public const int app_name = 2131558427;
 			
 			// aapt resource value: 0x7F0D001D
-			public const int character_counter_content_description = 2131558429;
+			public const int bottom_sheet_behavior = 2131558429;
 			
 			// aapt resource value: 0x7F0D001E
-			public const int character_counter_pattern = 2131558430;
+			public const int character_counter_content_description = 2131558430;
 			
 			// aapt resource value: 0x7F0D001F
-			public const int exo_controls_fastforward_description = 2131558431;
+			public const int character_counter_pattern = 2131558431;
 			
 			// aapt resource value: 0x7F0D0020
-			public const int exo_controls_fullscreen_description = 2131558432;
+			public const int exo_controls_fastforward_description = 2131558432;
 			
 			// aapt resource value: 0x7F0D0021
-			public const int exo_controls_hide = 2131558433;
+			public const int exo_controls_fullscreen_description = 2131558433;
 			
 			// aapt resource value: 0x7F0D0022
-			public const int exo_controls_next_description = 2131558434;
+			public const int exo_controls_hide = 2131558434;
 			
 			// aapt resource value: 0x7F0D0023
-			public const int exo_controls_pause_description = 2131558435;
+			public const int exo_controls_next_description = 2131558435;
 			
 			// aapt resource value: 0x7F0D0024
-			public const int exo_controls_play_description = 2131558436;
+			public const int exo_controls_pause_description = 2131558436;
 			
 			// aapt resource value: 0x7F0D0025
-			public const int exo_controls_previous_description = 2131558437;
+			public const int exo_controls_play_description = 2131558437;
 			
 			// aapt resource value: 0x7F0D0026
-			public const int exo_controls_repeat_all_description = 2131558438;
+			public const int exo_controls_previous_description = 2131558438;
 			
 			// aapt resource value: 0x7F0D0027
-			public const int exo_controls_repeat_off_description = 2131558439;
+			public const int exo_controls_repeat_all_description = 2131558439;
 			
 			// aapt resource value: 0x7F0D0028
-			public const int exo_controls_repeat_one_description = 2131558440;
+			public const int exo_controls_repeat_off_description = 2131558440;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int exo_controls_rewind_description = 2131558441;
+			public const int exo_controls_repeat_one_description = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int exo_controls_show = 2131558442;
+			public const int exo_controls_rewind_description = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int exo_controls_shuffle_off_description = 2131558443;
+			public const int exo_controls_show = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int exo_controls_shuffle_on_description = 2131558444;
+			public const int exo_controls_shuffle_off_description = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int exo_controls_stop_description = 2131558445;
+			public const int exo_controls_shuffle_on_description = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int exo_controls_vr_description = 2131558446;
+			public const int exo_controls_stop_description = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int exo_download_completed = 2131558447;
+			public const int exo_controls_vr_description = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int exo_download_description = 2131558448;
+			public const int exo_download_completed = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int exo_download_downloading = 2131558449;
+			public const int exo_download_description = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int exo_download_failed = 2131558450;
+			public const int exo_download_downloading = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int exo_download_notification_channel_name = 2131558451;
+			public const int exo_download_failed = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int exo_download_removing = 2131558452;
+			public const int exo_download_notification_channel_name = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int exo_item_list = 2131558453;
+			public const int exo_download_removing = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int exo_media_action_repeat_all_description = 2131558454;
+			public const int exo_item_list = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int exo_media_action_repeat_off_description = 2131558455;
+			public const int exo_media_action_repeat_all_description = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
-			public const int exo_media_action_repeat_one_description = 2131558456;
+			public const int exo_media_action_repeat_off_description = 2131558456;
 			
 			// aapt resource value: 0x7F0D0039
-			public const int exo_track_bitrate = 2131558457;
+			public const int exo_media_action_repeat_one_description = 2131558457;
 			
 			// aapt resource value: 0x7F0D003A
-			public const int exo_track_mono = 2131558458;
+			public const int exo_track_bitrate = 2131558458;
 			
 			// aapt resource value: 0x7F0D003B
-			public const int exo_track_resolution = 2131558459;
+			public const int exo_track_mono = 2131558459;
 			
 			// aapt resource value: 0x7F0D003C
-			public const int exo_track_role_alternate = 2131558460;
+			public const int exo_track_resolution = 2131558460;
 			
 			// aapt resource value: 0x7F0D003D
-			public const int exo_track_role_closed_captions = 2131558461;
+			public const int exo_track_role_alternate = 2131558461;
 			
 			// aapt resource value: 0x7F0D003E
-			public const int exo_track_role_commentary = 2131558462;
+			public const int exo_track_role_closed_captions = 2131558462;
 			
 			// aapt resource value: 0x7F0D003F
-			public const int exo_track_role_supplementary = 2131558463;
+			public const int exo_track_role_commentary = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int exo_track_selection_auto = 2131558464;
+			public const int exo_track_role_supplementary = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int exo_track_selection_none = 2131558465;
+			public const int exo_track_selection_auto = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int exo_track_selection_title_audio = 2131558466;
+			public const int exo_track_selection_none = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int exo_track_selection_title_text = 2131558467;
+			public const int exo_track_selection_title_audio = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int exo_track_selection_title_video = 2131558468;
+			public const int exo_track_selection_title_text = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int exo_track_stereo = 2131558469;
+			public const int exo_track_selection_title_video = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int exo_track_surround = 2131558470;
+			public const int exo_track_stereo = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int exo_track_surround_5_point_1 = 2131558471;
+			public const int exo_track_surround = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int exo_track_surround_7_point_1 = 2131558472;
+			public const int exo_track_surround_5_point_1 = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int exo_track_unknown = 2131558473;
+			public const int exo_track_surround_7_point_1 = 2131558473;
 			
 			// aapt resource value: 0x7F0D004A
-			public const int fab_transformation_scrim_behavior = 2131558474;
+			public const int exo_track_unknown = 2131558474;
 			
 			// aapt resource value: 0x7F0D004B
-			public const int fab_transformation_sheet_behavior = 2131558475;
+			public const int fab_transformation_scrim_behavior = 2131558475;
 			
 			// aapt resource value: 0x7F0D004C
-			public const int hide_bottom_view_on_scroll_behavior = 2131558476;
+			public const int fab_transformation_sheet_behavior = 2131558476;
 			
 			// aapt resource value: 0x7F0D004D
-			public const int mtrl_chip_close_icon_content_description = 2131558477;
+			public const int hello = 2131558477;
 			
 			// aapt resource value: 0x7F0D004E
-			public const int password_toggle_content_description = 2131558478;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558478;
 			
 			// aapt resource value: 0x7F0D004F
-			public const int path_password_eye = 2131558479;
+			public const int mtrl_chip_close_icon_content_description = 2131558479;
 			
 			// aapt resource value: 0x7F0D0050
-			public const int path_password_eye_mask_strike_through = 2131558480;
+			public const int password_toggle_content_description = 2131558480;
 			
 			// aapt resource value: 0x7F0D0051
-			public const int path_password_eye_mask_visible = 2131558481;
+			public const int path_password_eye = 2131558481;
 			
 			// aapt resource value: 0x7F0D0052
-			public const int path_password_strike_through = 2131558482;
+			public const int path_password_eye_mask_strike_through = 2131558482;
 			
 			// aapt resource value: 0x7F0D0053
-			public const int search_menu_title = 2131558483;
+			public const int path_password_eye_mask_visible = 2131558483;
 			
 			// aapt resource value: 0x7F0D0054
-			public const int status_bar_notification_info_overflow = 2131558484;
+			public const int path_password_strike_through = 2131558484;
+			
+			// aapt resource value: 0x7F0D0055
+			public const int search_menu_title = 2131558485;
+			
+			// aapt resource value: 0x7F0D0056
+			public const int status_bar_notification_info_overflow = 2131558486;
 			
 			static String()
 			{
